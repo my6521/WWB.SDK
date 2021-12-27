@@ -39,7 +39,7 @@ namespace WWB.SDK.ArcFaceApi
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        [HttpPost("/api/Face/Search")]
+        [HttpPost("/api/Face/CompareSearch")]
         Task<ApiResult<FaceCompareSearchResponse>> CompareSearch([JsonNetContent] FaceCompareSearchRequest request);
     }
 }
