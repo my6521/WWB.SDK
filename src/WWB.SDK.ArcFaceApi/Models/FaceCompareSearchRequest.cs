@@ -7,13 +7,13 @@ namespace WWB.SDK.ArcFaceApi.Models
         /// <summary>
         /// 标识
         /// </summary>
-        [Required]
-        public string Id { get; set; }
+        [Required(ErrorMessage = "不包含标识不能为空")]
+        public string ExcludeId { get; set; }
 
         /// <summary>
         /// 图片base64字符串
         /// </summary>
-        [Required]
+        [Required(ErrorMessage = "照片不能为空")]
         public string ImageStr { get; set; }
     }
 }
