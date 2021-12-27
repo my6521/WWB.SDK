@@ -15,16 +15,8 @@ namespace WWB.SDK.ArcFaceApi
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        [HttpPost("/api/Face/Add")]
-        Task<ApiResult> Add([JsonNetContent] FaceAddRequest request);
-
-        /// <summary>
-        /// 修改人脸特征
-        /// </summary>
-        /// <param name="request"></param>
-        /// <returns></returns>
-        [HttpPost("/api/Face/Update")]
-        Task<ApiResult> Update([JsonNetContent] FaceUpdateRequest request);
+        [HttpPost("/api/Face/Save")]
+        Task<ApiResult> Save([JsonNetContent] FaceSaveRequest request);
 
         /// <summary>
         /// 删除人脸特征

@@ -5,7 +5,7 @@ namespace WWB.SDK.ArcFaceApi.Models
     /// <summary>
     /// 
     /// </summary>
-    public class FaceAddRequest
+    public class FaceSaveRequest
     {
         /// <summary>
         /// 人脸特征标识
