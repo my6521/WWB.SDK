@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="WebApiClientCore" Version="2.0.1" />
+        <PackageReference Include="WebApiClientCore.Extensions.NewtonsoftJson" Version="2.0.1" />
+        <PackageReference Include="WebApiClientCore.Extensions.OAuths" Version="2.0.1" />
+        <PackageReference Include="WWB.UnifyApi" Version="1.0.0" />
+    </ItemGroup>
+</Project>
