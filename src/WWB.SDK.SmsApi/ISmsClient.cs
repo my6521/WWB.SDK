@@ -15,7 +15,7 @@ namespace WWB.SDK.SmsApi
         /// </summary>
         /// <param name="request">请求对象</param>
         /// <returns></returns>
-        [Microsoft.AspNetCore.Mvc.HttpPost("create")]
+        [HttpPost("/api/Sms/Send")]
         Task<ApiResult> Send([JsonNetContent] SendSmsRequest request);
     }
 }
