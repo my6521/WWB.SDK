@@ -29,7 +29,7 @@ namespace WWB.SDK.SmsApi.Models
         /// <summary>
         /// 签名
         /// </summary>
-        [Required(ErrorMessage = "签名不能为空")]
-        public string Sign { get; set; }
+        [Required(ErrorMessage = "密钥不能为空")]
+        public string Secret { get; set; }
     }
 }
