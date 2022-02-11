@@ -6,7 +6,6 @@ using WWB.UnifyApi.Models;
 
 namespace WWB.SDK.ArcFaceApi
 {
-    [JsonNetReturn(EnsureMatchAcceptContentType = false)]
     public interface IArcFaceApi
     {
         /// <summary>

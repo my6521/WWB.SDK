@@ -4,7 +4,6 @@ namespace WWB.SDK.ArcFaceApi
 {
     [JsonNetReturn(EnsureMatchAcceptContentType = false)]
     [SignApiFilter]
-    [LoggingFilter]
     public interface IApiWithSignFilter
     {
         
