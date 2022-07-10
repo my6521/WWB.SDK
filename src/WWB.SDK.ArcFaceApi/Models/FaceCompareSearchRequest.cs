@@ -15,5 +15,10 @@ namespace WWB.SDK.ArcFaceApi.Models
         /// </summary>
         [Required(ErrorMessage = "照片不能为空")]
         public string ImageStr { get; set; }
+
+        /// <summary>
+        /// 判断是否重复
+        /// </summary>
+        public bool ValidRepeat { get; set; } = true;
     }
 }
